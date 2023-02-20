@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: #92e211;
+                font-family: Arial;
+                font-size: 17px;
+            }
+
+.login-form {
+    width: 200px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 00px;
+    box-shadow: 0 2px 10px #000;
+}
+</style>
+    </head>
+<p style="text-align: center;"><h1><u>WELCOME TO POETRY ORGANIZATION</u></h1></p>
+<p style="text-align: center;"><h1>For you to join, go through this:</h1></p>
+<p>Have you ever participated in poetry?</p>
+<input type="radio" name="poetry" value="yes">Yes<br>
+<input type="radio" name="poetry" value="no">No<br>
+<form action="your_action.php" method="post" enctype="multipart/form-data">
+
+    <label for="category">Which category of poetry do you perform?</label><br>
+    <input type="text" name="category" id="category" /><br>
+    
+    <label for="about_yourself">Tell us more about yourself</label><br>
+    <textarea name="about_yourself" id="about_yourself"></textarea><br>
+    
+    <label for="upload">Upload any document you have in poetry</label><br>
+    <input type="file" name="upload" id="upload" /><br>
+    
+    <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
+    
